@@ -1,0 +1,23 @@
+ErrorDocument 403 /project24261226/page133891196.html
+ErrorDocument 404 /project24261226/page133891196.html
+
+DirectoryIndex page74342879.html
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/project24261226/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^grin$ page74342879.html [NC]
+RewriteRule ^grin/$ page74342879.html [NC]
+
+RewriteRule ^menu$ page74342883.html [NC]
+RewriteRule ^menu/$ page74342883.html [NC]
+
+RewriteRule ^pop$ page133890856.html [NC]
+RewriteRule ^pop/$ page133890856.html [NC]
+
+RewriteRule ^non$ page133891196.html [NC]
+RewriteRule ^non/$ page133891196.html [NC]
+
+

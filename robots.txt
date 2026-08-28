@@ -1,0 +1,17 @@
+User-Agent: *
+Disallow: /page74342879.html
+Disallow: /grin
+Disallow: /page74342883.html
+Disallow: /menu
+Disallow: /tilda/form*
+Disallow: /tilda/rec*
+Disallow: /tilda/click*
+Disallow: /tilda/scroll*
+Disallow: /tilda/popup*
+Disallow: /tilda/cart*
+Disallow: /tilda/product*
+Disallow: /tilda/event*
+Disallow:
+
+
+Sitemap: http://grinvic.tilda.ws/sitemap.xml
